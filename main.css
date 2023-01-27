@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Raleway";
+}
+
+.head {
+  position: top-fixed;
+  background-color: orange !important;
+}
+
+.nav-link,
+.navbar-brand {
+  color: white !important;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.home {
+  position: relative;
+  height: 380px;
+  background-image: url("images/headerback.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.home .home-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.home .home-content h1 {
+  color: orange;
+}
+
+/*Mise en forme partie about*/
+.about-content {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.about-content h1 {
+  color: orange;
+  text-align: center;
+}
+
+.about-content .about-element {
+  display: flex;
+}
+
+.about-content .about-element .id{
+    text-align: center;
+}
+
+.about-content .bar {
+  margin-right: 20px;
+  padding: 2px;
+  background-color: green;
+}
+
+.about-content .ime{
+  background-image: url("images/face1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 100px;
+  width: 300px;
+  height: 200px;
+}
+
+/*Mise en forme partie portfolio*/
+.portfolio-content {
+  width: 70%;
+  margin: 50px auto;
+}
+
+.portfolio-content h1 {
+  color: orange;
+  text-align: center;
+}
+
+.portfolio-content .portfolio-element {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.portfolio-content img {
+  width: 250px;
+  height: 200px;
+  margin: 10px;
+}
+
+/*Mise en forme partie blog*/
+.blog-content {
+  width: 70%;
+  margin: 50px auto;
+}
+
+.blog-content h1 {
+  color: orange;
+  text-align: center;
+}
+
+.blog-content .card-title {
+  color: orange;
+}
+
+.blog-content .list-group-item {
+  color: rgb(0, 68, 255);
+  background-color: rgba(128, 128, 128, 0.301) !important;
+}
+
+.blog-content .blog-element {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.blog-content img {
+  height: 200px;
+}
+
+/*Mise en forme partie our team*/
+
+.team-content {
+  width: 70%;
+  margin: 50px auto;
+}
+
+.team-content h1 {
+  color: orange;
+  text-align: center;
+}
+
+.team-content .card-body {
+  color: white;
+  background-color: orange;
+  text-align: center;
+  padding: 0;
+  border-radius: 0px 10px 0px 200px;
+  -webkit-border-radius: 0px 10px 0px 200px;
+  -moz-border-radius: 0px 10px 0px 200px;
+}
+
+.team-content .list-group-item {
+  color: rgb(15, 15, 15);
+}
+
+.team-content .team-element {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.team-content img {
+  height: 300px;
+}
+
+/* Partie contact */
+.contact-content {
+  width: 70%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.contact-content h1 {
+    color: orange;
+    text-align: center;
+  }
+.contact-content .contact-element {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#sociaux{
+    position: relative;
+	text-decoration: none;
+	color: orange;
+	font-size: 40px;
+}
